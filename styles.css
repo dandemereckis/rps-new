@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #0c2c55;
+  color: #ededce;
+  border: 2px black solid;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #0c2c55c3;
+  cursor: pointer;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 125px;
+  height: 75px;
+}
